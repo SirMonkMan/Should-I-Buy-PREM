@@ -11,6 +11,17 @@ body {
   background-color: #006400;
 }
 
+svg {
+  overflow: visible;
+  padding-top: 5%;
+  width: 2%;
+  position: relative;
+left: 40%;
+-webkit-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
